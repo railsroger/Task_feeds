@@ -1,24 +1,21 @@
-# README
+# Creating parse for rss feed
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Github Clone Repository
+```
+git clone git@github.com:railsroger/Task_feeds.git
+```
+Local project
+```
+cd Task_feeds
 
-Things you may want to cover:
+```
+Bundle
+```
+bundle install
+```
+Start
+```
+rails s
+```
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
