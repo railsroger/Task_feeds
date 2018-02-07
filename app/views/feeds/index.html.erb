@@ -1,0 +1,9 @@
+<%= @news.each do |new| %>
+  <div class=”col-md-4 article-padding”>
+  <a href=”<%= new.link %>”><p><strong><%= new.title %></strong></p></a>
+  <small><p style="margin-top:-10px"> <%= new.date.strftime("Published: %F") %> | <a href="<%= new.link %>"><em>Source: RealWire</em></a></a></p></small>
+  <p>
+  <%= new.description %>
+  </p>
+  </div>
+<% end %>
